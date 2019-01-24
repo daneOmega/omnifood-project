@@ -1,0 +1,162 @@
+
+@media only screen and (max-width:1200px) {
+    
+    .hero-text-box {width: 100%;padding: 0 2%;}
+    .row { padding: 0 2%;}
+}
+
+
+
+@media only screen and (max-width:1023px) {
+    
+    .logo {height: 100px; margin-top: 20px;}
+    html {font-size: 18px; }
+    .row {padding: 0 2%;}
+    section { padding: 60px 0;}
+    .main-nav { display: none;}
+    .long-copy { width: 80%; margin-left: 10%;}
+    .work-step {margin-bottom: 20px;}
+    .work-step div {  height: 40px;width: 40px; font-size: 120%;}
+    .phone-btn {margin-right: 15px; height: 44px;}
+    .section-cities ion-icon { vertical-align: -5px; font-size: 110%;}
+    .city-stat li {font-size: 80%;}
+    .city-stat ion-icon {font-size: 150%; padding: 0; border: 0; background-color: hidden;}
+    blockquote:before { font-size: 400%; top: -50px; left:-10px;}
+    cite img {height: 64px; vertical-align: -24px;}
+    .meal-per-month {font-size: 200%;}
+    .contact-form {width: 90%;}
+    footer p {padding-bottom: 20px; padding-top: 20px;}
+    .footer-links li {margin-right: 20px;}
+    .footer-socials {margin-left: 110px;}
+    .main-nav { display: block;}
+}
+
+
+@media only screen and (max-width:767px) {
+     body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row,
+    .hero-text-box { padding: 0 2%; }
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+    .main-nav {
+    
+    display: none;
+    float: left;
+    margin-top: 30px;
+}
+
+.main-nav li {
+    
+    display: block;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    
+}
+
+.main-nav a:link,.main-nav a:visited   {
+    
+    font-size: 100%;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 0;
+    transition: color 0.2s;
+  
+    
+}
+
+.main-nav a:hover,.main-nav a:active {
+    
+    border:0;
+    color: #ffbe85;
+}
+ 
+    
+    .js-nav-icon ion-icon {
+        
+        display: block;
+        float: right;
+        color: #fff;
+        font-size: 300%;
+        margin-top: 20px;
+        color: color 0.2s;
+        
+    }
+    
+    .js-nav-icon ion-icon:hover {
+        
+        color: #ffbe85;
+    }
+    
+    .sticky  .js-nav-icon ion-icon:hover {
+        
+        color: #fd9030;
+    }
+    
+    .sticky .main-nav a:link,.sticky .main-nav a:visited {
+    
+    color: #000000;
+    border: 0;
+    transition: color 0.2s;
+    
+}
+
+.sticky .main-nav a:hover,.main-nav a:active {
+    
+    color: #ff8b25;
+    padding: 20px 0;
+}
+
+ .sticky .main-nav {
+
+    margin-top: 10px;
+ }
+    
+    
+    
+    .sticky .js-nav-icon ion-icon {
+        
+        color: #555;
+    }
+    
+   
+    
+    
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+    
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .app-screen { width: 40%; }
+    .steps-box:first-child { text-align: center; }
+    
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+    
+    .works-step { margin-bottom: 20px; }
+    .works-step:last-of-type { margin-bottom: 20px; }
+    
+}
+    
+    
+} 
+
+
+@media only screen and (max-width:481px) {
+    .row,
+    .hero-text-box { padding: 0 4%; }
+}
